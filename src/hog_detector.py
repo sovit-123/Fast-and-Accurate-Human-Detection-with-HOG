@@ -37,5 +37,5 @@ for image_path in image_paths:
             cv2.rectangle(image, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
     cv2.imshow('HOG detection', image)
-    cv2.imwrite(f"../outputs/{image_name}.jpg", image)
+    cv2.imwrite(f"../outputs/{image_name}", image)
     cv2.waitKey(0)
