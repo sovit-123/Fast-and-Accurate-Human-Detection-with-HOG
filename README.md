@@ -6,7 +6,12 @@
 
 
 
-## <u></u>
+## <u>Some Results</u>
+
+* ![](https://github.com/sovit-123/Fast-and-Accurate-Human-Detection-with-HOG/blob/master/outputs/people1.jpg?raw=true)
+* ![](https://github.com/sovit-123/Fast-and-Accurate-Human-Detection-with-HOG/blob/master/outputs/people2.jpg?raw=true)
+
+
 
 
 
