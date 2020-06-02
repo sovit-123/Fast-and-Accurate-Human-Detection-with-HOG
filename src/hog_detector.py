@@ -3,7 +3,7 @@ NOTE:
 This python script uses the default people detector provided by OpenCV to
 detect people in photos
 USAGE:
-python default_detector.py
+python hog_detector.py
 '''
 
 import cv2

@@ -130,7 +130,7 @@ dmypy.json
 
 # input data and models
 input/
-outputs/
+outputs/frames/
 
 # data files
 *.csv

@@ -1,4 +1,44 @@
-# README
+# Fast-and-Accurate-Human-Detection-with-HOG
+
+
+
+* This project used OpenCV HOG people detector to build an accurate and fast enough implementation to detect people in images and videos.
+
+
+
+## <u></u>
+
+
+
+## <u>The Project Structure</u>
+
+```
+├───input
+        people1.jpg
+        people2.jpg
+        people3.jpg
+        video1.mp4
+        video2.mp4
+        video3.mp4
+        video4.mp4
+├───outputs
+│   └───frames
+└───src
+        hog_detector.py
+        hog_detector_vid.py
+```
+
+* After cloning the repository, you need to create the `input` and `outputs` folder.
+* You can find all the data in the input folder in the [References](#References) section.
+
+
+
+## <u>Executing the Python Files</u>
+
+* `hog_detector.py`: Execute this file from within the `src` folder in the terminal. This detects the people in images inside the `input` folder.
+* `hog_detector_vid.py`:  Execution details:
+  * `python hog_detector_vid.py --input ../input/video1.mp4 --output ../output/video1_slow.mp4 --speed slow`: Use this execution command to run slow but accurate video detection algorithm.
+  * `python hog_detector_vid.py --input ../input/video1.mp4 --output ../output/video1_fast.mp4 --speed fast`: Use this command to execute a little bit less accurate but fast video detection algorithm.
 
 
 
@@ -17,4 +57,3 @@
     * Link: https://www.pexels.com/video/athletes-warming-up-1585619/.
   * `input/video5.mp5`: 
     * Link: https://www.youtube.com/watch?v=NyLF8nHIquM.
-  * # Fast-and-Accurate-Human-Detection-with-HOG

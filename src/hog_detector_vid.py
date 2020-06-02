@@ -1,7 +1,7 @@
 '''
 USAGE:
-python hog_detector_vid.py --input ../input/video1.mp4 --output ../output/video1_slow.mp4 --speed slow
-python hog_detector_vid.py --input ../input/video1.mp4 --output ../output/video1_fast.mp4 --speed fast
+python hog_detector_vid.py --input ../input/video1.mp4 --output ../outputs/video1_slow.mp4 --speed slow
+python hog_detector_vid.py --input ../input/video1.mp4 --output ../outputs/video1_fast.mp4 --speed fast
 '''
 
 import cv2 
